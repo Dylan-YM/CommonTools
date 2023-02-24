@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>VPrepare</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> override func bindViewModel() {
+        super.bindViewModel()
+        
+        guard let viewModel = viewModel as? LoginViewModel else {return}
+   
+    }
+    
+ 
+    // MARK: handle views
+    override func makeUI() {
+        super.makeUI()
+        
+   
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        self.navigationTitle = &lt;#title#&gt;
+        UIApplication.shared.keyWindow?.addSubview(statusBar)
+        
+    }
+override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E330AA1A-5DEF-46E2-AC92-27985E356830</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewdidLoad</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

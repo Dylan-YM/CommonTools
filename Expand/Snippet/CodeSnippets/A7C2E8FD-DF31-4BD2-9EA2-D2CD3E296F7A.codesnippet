@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>table-prepare</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#tableView#&gt;:UITableView = {
+      let tableView = UITableView(frame: CGRect.zero, style: .grouped)
+    tableView.dl_registerCellClass(&lt;#tableviewCell#&gt;.self)
+        if #available(iOS 15, *) {
+            tableView.sectionHeaderTopPadding = 0
+        }
+       tableView.showsVerticalScrollIndicator = false
+        tableView.backgroundColor = Color_Main_BG_White
+       tableView.showsHorizontalScrollIndicator = false
+        tableView.separatorStyle = .none
+       tableView.bounces = false
+       tableView.delegate = self
+        tableView.tableHeaderView = UIView(frame: CGRect.init(x: 0, y: 0, width: dl_kScreenH, height: 0.01))
+        tableView.sectionHeaderHeight = 1
+        tableView.sectionFooterHeight = 1
+        return tableView
+  }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A7C2E8FD-DF31-4BD2-9EA2-D2CD3E296F7A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create tableview </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tf-prepare</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>var &lt;#name#&gt;: RegularTextField = {
+        
+        let tf = RegularTextField(frame: .zero)
+        tf.regularLimitCb = { "^(1([3-9]{1}([0-9]{0,9})?)?)?$" }
+        tf.keyboardType = .phonePad
+        tf.placeholder = "&lt;#placeHold#&gt;"
+        tf.clearButtonMode = .always
+    tf.font = UIFont.systemFont(ofSize: &lt;#font#&gt;)
+        tf.clearButtonMode = .never
+        
+        
+        return tf
+        
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>48F1BB47-74A9-4F99-8583-6B18AA3EFB68</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>textfield prepare </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

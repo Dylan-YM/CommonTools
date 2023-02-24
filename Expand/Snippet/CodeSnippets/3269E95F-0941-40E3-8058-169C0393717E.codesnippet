@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>btn-prepare </string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>var &lt;#name#&gt;: UIButton = {
+        let btn = UIButton.dl.normal()
+        btn.titleForNormal = "&lt;#text#&gt;"
+    btn.titleColorForNormal = &lt;#color#&gt;
+    btn.font(&lt;#fontSize#&gt;)
+        btn.imageForNormal = UIImage.init(named: "&lt;#imgName#&gt;")
+        btn.imageForSelected = UIImage.init(named: "#&lt;#imgName#&gt;")
+        btn.layer.borderColor = Color_Title_Blue.cgColor
+        btn.layer.borderWidth = 1
+        btn.layer.cornerRadius = 4
+        btn.layer.masksToBounds = true
+        return btn
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3269E95F-0941-40E3-8058-169C0393717E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>btn prepare </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
